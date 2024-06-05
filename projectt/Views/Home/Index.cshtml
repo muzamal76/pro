@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour website</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 70px;
+    font-size: 18px;
+}
+
+.header nav a:hover {
+    text-decoration:underline;
+}
+.image-container img{
+    width: 100%;
+    height: 600px; 
+    border: 2px solid #333; 
+}
+.image-container .over-text {
+    position: absolute;
+    border: 2px solid black;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10%;
+}
+.text2{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.t-images {
+    display: flex;
+    margin: 20px;
+}
+
+.image-box {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-box img {
+    width: 100%;
+    max-width: 300px; /* Set a max width to ensure equal size */
+    max-height: 200px; /* Set a max height to ensure equal size */
+    border: 2px solid #333; /* Optional: Adds a border around each image */
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <div class="image-container">
+        <img src="/css/download (5).jpg" alt="Picture of View">
+        <div class="over-text">No Matter where you're going to, we'll take you there</div>
+    </div>
+    <div class="text2">
+        <p>Our Trending tour packages</p>
+    </div>
+    <div class="t-images">
+        <div class="image-box">
+            <img src="/css/download (1).jpg" alt="Image 1">
+            <div class="image-text">Naran kaghan</div>
+        </div>
+        <div class="image-box">
+            <img src="/css/download (2).jpg" alt="Image 2">
+            <div class="image-text">swat kalam</div>
+        </div>
+        <div class="image-box">
+            <img src="/css/download (3).jpg" alt="Image 3">
+            <div class="image-text">kashmir</div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>Tour Website</h2>
+                <p>We offer the best tour packages to make your travel experience unforgettable. Join us to explore the world.</p>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p>Email: sahilfareed667gmail.com</p>
+                <p>Phone: 03044565432</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Tour Website
+        </div>
+    </footer>
+</body>
+</html>
