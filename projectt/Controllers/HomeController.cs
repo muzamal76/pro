@@ -15,12 +15,14 @@ namespace projectt.Controllers
 
         public IActionResult Index()
         {
+            TempData["home"] = "Done";
             return View();
         }
 
         public IActionResult book()
         {
             return View();
+            TempData[" message"] = "your iordr book";
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
